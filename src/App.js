@@ -7,7 +7,7 @@ import PropertyListItem from './components/propertyListltem';
 import { FaTh, FaList } from 'react-icons/fa';
 
 export default function App() {
-  const [view, setView] = useState('grid'); // 'grid' or 'list'
+  const [view, setView] = useState('grid');
   const [query, setQuery] = useState('');
   const [minPrice, setMinPrice] = useState('');
   const [maxPrice, setMaxPrice] = useState('');
